@@ -6,7 +6,7 @@ const sendEmailNewOrder = (fromEmail,toEmail,order) => {
     li = li + `<li> ${product.title} - quantity: ${product.quantity} </li>`
   })
   transport.sendMail({
-    from: `Matias ${fromEmail}`,
+    from: `Lucia ${fromEmail}`,
     to: toEmail,
     html: `<h1>List of items:</h1>
             <ul> 
@@ -22,7 +22,7 @@ const sendEmailNewOrder = (fromEmail,toEmail,order) => {
 
 const sendEmailNewUser = (fromEmail,toEmail,user) => {
   transport.sendMail({
-    from: `Matias ${fromEmail}`,
+    from: `Lucia ${fromEmail}`,
     to: toEmail,
     html: `<h1>New user details:</h1>
             <ul> 
