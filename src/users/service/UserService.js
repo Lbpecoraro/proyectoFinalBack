@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const UsersDaoFactory = require("../daos/DaoFactoryUsers");
 const logger = require("../../logs/logger");
 const { sendEmailNewUser } = require("../../nodemailer/helpers/helpers")
